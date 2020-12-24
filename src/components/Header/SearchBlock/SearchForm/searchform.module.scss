@@ -1,0 +1,50 @@
+.block {
+  padding: 2%;
+}
+
+.searchField {
+  width: 80%;
+  height: 100%;
+  padding-left: 2%;
+  border-radius: unset;
+  border: 2px solid #D8D8D8;
+  border-right: none;
+  vertical-align: top;
+  font-size: 24px;
+}
+
+.searchButton {
+  width: 20%;
+  height: 113%;
+  border: 2px solid #D8D8D8;
+  border-left: none;
+  background-color: #D0031C;
+}
+
+.btnImage {
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-position: -240px 0;
+  margin: auto;
+}
+
+.form {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 589px){
+  .form {
+    height: 30px;
+  }
+  .searchButton {
+    height: 120%;
+    width: 30%;
+  }
+  .searchField {
+    font-size: 16px;
+  }
+}

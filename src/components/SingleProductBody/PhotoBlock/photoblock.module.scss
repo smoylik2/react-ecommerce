@@ -1,0 +1,37 @@
+.block {
+  width: 50%;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picList {
+  width: 7.5%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.smallPhoto, .smallPhotoActive {
+  width: 100%;
+  cursor: pointer;
+}
+
+.smallPhotoActive {
+  border: #D0031C solid 1px;
+}
+
+.largePhoto {
+  width: 90%;
+}
+
+.bigPhoto {
+  width: 100%;
+  border: #E4E2E2 solid 1px;
+}
+@media screen and (max-width: 1000px){
+  .block {
+    width: 98%;
+  }
+}

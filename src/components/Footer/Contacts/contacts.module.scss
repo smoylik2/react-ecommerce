@@ -1,0 +1,49 @@
+.block {
+  width: 50%;
+  background-color: #4C4C4C;
+  min-height: 400px;
+  color: #CCCCCC;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoTitle {
+  width: 100%;
+  border-bottom: #404040 solid 1px;
+  padding: 0 2em;
+  margin: 0;
+  font-weight: 600;
+  h2 {
+    margin: 10px;
+  }
+}
+
+.infoElement {
+  font-size: 18px;
+  margin: 10px 20% 0 20%;
+  border-bottom: #404040 solid 1px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcon {
+  background-repeat: no-repeat;
+  display: block;
+  height: 64px;
+  width: 64px;
+  margin: 10px 16px;
+}
+.vk {background-position: -332px 0;}
+.instagramm {background-position: -52px 0;}
+.olx {background-position: -176px 0;}
+
+@media screen and (max-width: 859px) {
+  .block {
+    width: 100%;
+  }
+}

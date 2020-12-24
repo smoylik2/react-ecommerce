@@ -1,0 +1,59 @@
+.block {
+  width: 100%;
+}
+
+.basketBtn {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid #D8D8D8;
+  cursor: pointer;
+}
+
+.basketLogo {
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-position: 0 0;
+}
+
+.basketLabel {
+  font-size: 30px;
+  margin: 1%;
+  font-family: Bodoni MT, Bodoni, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+}
+
+.productCount {
+  font-size: 32px;
+  color: #D0031C;
+  margin: 1%;
+}
+
+@media screen and (max-width: 1140px){
+  .basketLabel {
+    font-size: 24px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .basketLabel {
+    font-size: 18px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .basketBtn {
+    height: 38px;
+    margin-top: 10px;
+    border: none;
+    background-color: inherit;
+  }
+
+}

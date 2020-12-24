@@ -1,0 +1,38 @@
+.block {
+  display: flex;
+  flex-flow: column;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inputField {
+  border: none;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px;
+  background-color: #D8D8D8;
+  border-radius: 2px;
+  &:focus {
+    outline: #8D8D8D solid 1px;
+  }
+}
+
+.lineError {
+  font-size: 14px;
+  color: #D0031C;
+}
+
+.subBtn {
+  border: none;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 30px;
+  color: #EFEFEF;
+  background-color: #D0031C;
+  &:hover {
+    opacity: .95;
+  }
+}

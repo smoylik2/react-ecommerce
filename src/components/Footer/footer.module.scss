@@ -1,0 +1,15 @@
+.block {
+  display: flex;
+  flex-flow: wrap;
+  border-top: #D0031C solid 10px;
+  overflow: hidden;
+}
+
+.copyright {
+  width: 100%;
+  padding: 8px;
+  background-color: black;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+

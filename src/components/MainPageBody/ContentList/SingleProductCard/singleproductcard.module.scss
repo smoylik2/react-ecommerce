@@ -1,0 +1,52 @@
+.block{
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 23%;
+  padding: 1%;
+  &:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+}
+
+.productImg {
+  width: 100%;
+}
+
+.linkBlock {
+  font-size: 16px;
+  text-decoration: none;
+  color: #4A4A4A;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.productName {
+  font-weight: 500;
+  margin: 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+  color: #393838;
+  text-align: right;
+}
+
+@media screen and (max-width: 859px){
+  .block{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 499px){
+  .block{
+    width: 98%;
+  }
+}

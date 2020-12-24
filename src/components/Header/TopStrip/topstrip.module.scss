@@ -1,0 +1,56 @@
+
+.block {
+  background-color: #283E4A;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color: white;
+  flex-flow: wrap;
+}
+
+.icons {
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 2px 2px;
+}
+.sprite_email {background-position: -32px 0;}
+.sprite_lugacom {background-position: -116px 0;}
+.sprite_mts {background-position: -136px 0;}
+.sprite_olx {background-position: -156px 0;}
+.sprite_time {background-position: -272px 0;}
+.sprite_tme {background-position: -292px 0;}
+.sprite_viber {background-position: -312px 0;}
+.sprite_vk {background-position: -332px 0;}
+.sprite_whatsapp {background-position: -396px 0;}
+
+.text {
+  font-size: 18px;
+  padding: 2px 10px 2px 0;
+  height: 100%;
+  display: block;
+}
+
+.thunk {
+  display: flex;
+}
+
+.lableFor {
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+@media screen and (max-width: 1285px) {
+  .block{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .block{
+    display: none;
+  }
+}

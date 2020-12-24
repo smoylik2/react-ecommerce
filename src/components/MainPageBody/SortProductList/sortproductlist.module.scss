@@ -1,0 +1,62 @@
+.block {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding: 2vh 5vw 0;
+}
+
+.mainBtn {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 30px;
+  background-color: #F7F7F7;
+  border: #A6A5A5 solid 1px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 7px 15px 7px 10px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.showList {
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-flow: column;
+  background-color: #F7F7F7;
+  border: #283E4A solid 1px;
+}
+
+.selectBtn {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: inherit;
+  &:hover {
+    background-color: #D0031C;
+    color: #F7F7F7;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.arrow {
+  transform: rotate(-45deg);
+  height: 8px;
+  width: 8px;
+  border-left: #D0031C solid 2px;
+  border-bottom: #D0031C solid 2px;
+}
+
+.jacket {
+  width: 200px;
+  position: relative;
+}

@@ -1,0 +1,119 @@
+.block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: #8D8D8D solid 1px;
+}
+
+.prodInfo {
+  width: 60%;
+}
+
+.prodCount {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calcBlock {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.countTitle {
+  display: block;
+  min-width: 40px;
+  font-size: 24px;
+  color: #393838;
+}
+
+.manipulationBtn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  background-color: #A6A5A5;
+  color: #EFEFEF;
+  border: none;
+  border-radius: 50%;
+  margin: 0 2px;
+  vertical-align: middle;
+  &:focus {
+    outline: none;
+  }
+}
+
+.inputCount {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  padding: 0 0 0 6px;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  width: 38%;
+  height: 30px;
+  border: none;
+  color: #EFEFEF;
+  background-color: #D0031C;
+  border-radius: 2px;
+  &:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .manipulationBtn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 0;
+  }
+  .inputCount {
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .calcBlock {
+    justify-content: center;
+    flex-flow: wrap;
+    height: 50px;
+  }
+  .inputCount {
+    min-width: 44px;
+  }
+  .deleteBtn {
+    width: 100px;
+    height: 26px;
+    margin-top: 2px;
+  }
+  .block {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .prodCount {
+    justify-content: center;
+  }
+
+  .calcBlock {
+    width: 50%;
+  }
+  .deleteBtn {
+    width: 60px;
+  }
+  .manipulationBtn{
+    display: none;
+  }
+}

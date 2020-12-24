@@ -1,0 +1,68 @@
+.block {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: #F7F7F7;
+  border-bottom: #D8D8D8 solid 5px;
+}
+
+
+.productCard {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &:hover {
+    .name {
+      text-decoration: underline #282c34;
+    }
+  }
+}
+
+.img {
+  width: 12%;
+  height: 12%;
+  border-radius: 5px;
+}
+
+.name {
+  width: 58%;
+  padding-left: 2%;
+  display: block;
+  color: #4A4A4A;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.price {
+  width: 30%;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+  color: #393838;
+  text-align: right;
+}
+
+.showMore {
+  width: 100%;
+  height: 10%;
+  font-size: 2.5vh;
+  border: none;
+  cursor: pointer;
+  color: #D0031C;
+}
+
+@media screen and (max-width: 859px){
+  .block {
+    left: 0;
+  }
+}
+@media screen and (max-width: 589px){
+  .block {
+    top: 100%;
+    left: -100%;
+    width: 200%;
+  }
+}

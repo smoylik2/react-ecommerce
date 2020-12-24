@@ -1,0 +1,90 @@
+.block {
+  width: 45%;
+  margin: 0 1%;
+  font-family: BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+  color: #4A4A4A;
+}
+
+.title {
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.article {
+  font-size: 16px;
+  color: #A6A5A5;
+}
+
+.description {
+  font-size: 16px;
+  margin: 0;
+  padding: 20px 0;
+  border-top: #DDDDDD solid 1px;
+  border-bottom: #DDDDDD solid 1px;
+}
+
+
+.price {
+  float: right;
+  margin: 10px 10% 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Georgia, serif;
+  color: #393838;
+}
+
+.btnBuy {
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  font-size: 24px;
+  border: none;
+  color: #F7F7F7;
+  background-color: #D0031C;
+}
+
+.imgBuy {
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-position: 0 0;
+  filter: invert(1)
+}
+
+.parametersTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tblCeil {
+  text-align: center;
+  width: 50%;
+  height: 30px;
+  background-color: #CCCCCC;
+}
+
+.tblRow:nth-child(odd) .tblCeil {
+  background-color: #F2F2F2;
+}
+
+/* chess example
+.tblRow:nth-child(odd) .tblCeil:nth-child(odd) {
+  background-color: #F2F2F2;
+}
+
+.tblRow:nth-child(even) .tblCeil:nth-child(even) {
+  background-color: #F2F2F2;
+}*/
+
+@media screen and (max-width: 1000px){
+  .block {
+    width: 98%;
+  }
+}
